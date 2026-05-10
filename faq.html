@@ -17,6 +17,59 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+<!-- Header Section -->
+<header class="main-header">
+    <div class="container">
+        <div class="header__content">
+            <div class="header__logo">
+                <a href="index.html" class="header__logo-link" aria-label="Go to home" data-translate="go_home">
+                    <img src="assets/img/logo.png" alt="IoBuild Logo" class="logo__image">
+                </a>
+            </div>
 
-</body>
-</html>
+            <nav class="main-nav" aria-label="Navegación principal">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html#benefits" class="nav__link" data-translate="nav_benefits">Benefits</a></li>
+                    <li class="nav__item"><a href="index.html#features" class="nav__link" data-translate="nav_features">Features</a></li>
+                    <li class="nav__item"><a href="index.html#pricing" class="nav__link" data-translate="nav_pricing">Plans</a></li>
+                    <li class="nav__item"><a href="about-us.html" class="nav__link" data-translate="nav_about">About Us</a></li>
+                    <li class="nav__item"><a href="faq.html" class="nav__link nav__link--active" data-translate="nav_faq">FAQ</a></li>
+                </ul>
+                <div class="language-switcher">
+                    <button class="lang-btn" data-lang="en" aria-pressed="true">EN</button>
+                    <button class="lang-btn" data-lang="es" aria-pressed="false">ES</button>
+                </div>
+                <a href="index.html#pricing" class="cta-primary" data-translate="start_now">Get Started</a>
+            </nav>
+
+            <button class="mobile-menu-toggle" aria-label="Open navigation menu" data-translate="mobile_menu_toggle">
+                <span class="hamburger__line"></span>
+                <span class="hamburger__line"></span>
+                <span class="hamburger__line"></span>
+            </button>
+        </div>
+    </div>
+</header>
+
+<main class="main-content">
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header__content">
+                <h1 class="page-header__title" data-translate="faq_title">Frequently Asked Questions</h1>
+                <p class="page-header__subtitle" data-translate="faq_subtitle">
+                    Answers to the most common questions about IoBuild
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="faq-categories">
+                <button class="faq-category-btn faq-category-btn--active" data-category="general" data-translate="faq_cat_general">General</button>
+                <button class="faq-category-btn" data-category="technical" data-translate="faq_cat_technical">Technical</button>
+                <button class="faq-category-btn" data-category="pricing" data-translate="faq_cat_pricing">Pricing</button>
+                <button class="faq-category-btn" data-category="support" data-translate="faq_cat_support">Support</button>
+            </div>
