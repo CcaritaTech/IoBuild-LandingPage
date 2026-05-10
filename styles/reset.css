@@ -64,3 +64,37 @@ svg {
         scroll-behavior: auto !important;
     }
 }
+
+/* Remove default list styles */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Remove default button styles */
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Remove default link underlines */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remove default field styles */
+input,
+textarea,
+select {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+/* Remove default table styles */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
