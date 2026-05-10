@@ -770,3 +770,95 @@ p {
     justify-content: center;
     gap: var(--spacing-1);
 }
+
+.pricing-card__currency {
+    font-size: var(--font-size-xl);
+    color: var(--color-text-secondary);
+}
+
+.pricing-card__amount {
+    font-size: var(--font-size-4xl);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-text-primary);
+}
+
+.pricing-card__period {
+    font-size: var(--font-size-lg);
+    color: var(--color-text-secondary);
+}
+
+.pricing-card__features {
+    list-style: none;
+    margin-bottom: var(--spacing-8);
+}
+
+.pricing-card__features li {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-3);
+    padding: var(--spacing-2) 0;
+    color: var(--color-text-secondary);
+}
+
+.pricing-card__features li::before {
+    content: '✓';
+    color: var(--color-primary);
+    font-weight: var(--font-weight-bold);
+}
+
+.pricing-card__footer {
+    text-align: center;
+}
+
+/* ===== FINAL CTA SECTION ===== */
+.final-cta-section {
+    padding: var(--spacing-24) 0;
+    background: linear-gradient(135deg, var(--color-primary-600) 0%, var(--color-primary-800) 100%);
+    color: var(--color-text-inverse);
+}
+
+.final-cta__content {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.final-cta__title {
+    color: var(--color-text-inverse);
+    margin-bottom: var(--spacing-6);
+}
+
+.final-cta__subtitle {
+    font-size: var(--font-size-xl);
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: var(--spacing-8);
+    line-height: var(--line-height-relaxed);
+}
+
+.final-cta__buttons {
+    display: flex;
+    gap: var(--spacing-4);
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: var(--spacing-6);
+}
+
+.final-cta__note {
+    font-size: var(--font-size-lg);
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 0;
+}
+
+/* ===== FOOTER STYLES ===== */
+.main-footer {
+    background-color: var(--color-gray-900);
+    color: var(--color-text-inverse);
+    padding: var(--spacing-16) 0 var(--spacing-8);
+}
+
+.footer__content {
+    display: grid;
+    grid-template-columns: 2fr repeat(4, 1fr);
+    gap: var(--spacing-8);
+    margin-bottom: var(--spacing-12);
+}
