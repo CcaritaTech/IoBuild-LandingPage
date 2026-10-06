@@ -1092,7 +1092,7 @@ p {
 
 /* Leader full-row layout */
 .team-grid--leader {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 .team-grid--leader .team-card--leader {
     grid-column: 1 / -1;
